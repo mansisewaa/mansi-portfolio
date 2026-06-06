@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio of Mansi Sewa, a results-driven PHP Software Engineer specializing in Laravel, MySQL 8.0, LAMP stack, AWS, and Clean Architecture.">
+  <title>Mansi Sewa | PHP & AI Software Engineer</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+  <!-- Ambient Background Accents -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">Mansi.Sewa</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#terminal" class="nav-link">Console</a>
+        <a href="#contact" class="nav-link contact-btn">Contact Me</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="badge-developer">
+          <span class="pulse-dot"></span>
+          <span>Open for Opportunities & Back-end Roles</span>
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Mansi Sewa</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          PHP Software Engineer & <span class="typewriter" id="typewriter-text">Laravel Developer</span>
+        </h2>
+        <p class="hero-description">
+          Building scalable, high-performance web applications using the LAMP stack, AWS, and Clean Architecture.
+          Turning complex business logic into secure, clean code.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Work</span>
+            <i data-lucide="arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span>Get in Touch</span>
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/mansi-sewa-3677ba1b3" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="mailto:mansisewaa@gmail.com" aria-label="Email">
+            <i data-lucide="mail"></i>
+          </a>
+          <a href="tel:+919101382810" aria-label="Phone">
+            <i data-lucide="phone"></i>
+          </a>
+          <span class="location-tag">
+            <i data-lucide="map-pin"></i>
+            Tinsukia, India
+          </span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-window">
+          <div class="window-header">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+            <span class="window-title">MansiSewa.php</span>
+          </div>
+          <div class="window-body">
+            <pre><code><span class="code-keyword">namespace</span> Developer\Portfolio;
+
+<span class="code-keyword">class</span> <span class="code-class">MansiSewa</span> <span class="code-keyword">implements</span> <span class="code-class">BackendEngineer</span> {
+    <span class="code-keyword">use</span> <span class="code-class">OptimizesCode</span>, <span class="code-class">SecuresSystems</span>;
+
+    <span class="code-keyword">public function</span> <span class="code-function">__construct</span>() {
+        <span class="code-keyword">$this</span>->experience = <span class="code-string">'4 Years'</span>;
+        <span class="code-keyword">$this</span>->location = <span class="code-string">'Assam, India'</span>;
+        <span class="code-keyword">$this</span>->stack = [<span class="code-string">'Laravel'</span>, <span class="code-string">'MySQL'</span>, <span class="code-string">'React'</span>, <span class="code-string">'PostgreSQL'</span>];
+    }
+
+    <span class="code-keyword">public function</span> <span class="code-function">solveProblems</span>() {
+        <span class="code-keyword">return</span> <span class="code-keyword">new</span> <span class="code-class">CleanArchitectureSolution</span>();
+    }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="stats-container">
+      <div class="stat-card">
+        <div class="stat-icon-wrapper"><i data-lucide="briefcase"></i></div>
+        <div>
+          <h3>4+ Years</h3>
+          <p>Professional Experience</p>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon-wrapper"><i data-lucide="code-2"></i></div>
+        <div>
+          <h3>10+ Projects</h3>
+          <p>Delivered Globally</p>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon-wrapper"><i data-lucide="credit-card"></i></div>
+        <div>
+          <h3>10L+ / Mo</h3>
+          <p>Razorpay Transaction Volume</p>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon-wrapper"><i data-lucide="zap"></i></div>
+        <div>
+          <h3>80% Reduction</h3>
+          <p>In Manual HR Efficiencies</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Summary Section -->
+  <section id="about" class="about-section">
+    <div class="section-header">
+      <span class="section-tag">01. Background</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="title-underline"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="paragraph-highlight">
+          I am a results-driven backend and full-stack engineer who thrives in optimizing database schemas, building
+          secure transaction processing gateways, and designing modular systems.
+        </p>
+        <p>
+          Throughout my 4 years of industry experience, I have partnered with private consultancies, utility boards, and
+          government departments (like the Assam Police) to deliver robust digital infrastructure. My core approach
+          utilizes <strong>Clean Architecture</strong>, <strong>Domain-Driven Design (DDD)</strong>, and
+          <strong>CQRS</strong> patterns to ensure logic remains separated, maintainable, and highly performant.
+        </p>
+        <p>
+          I am currently expanding my system engineering toolkit by building apps with Python (Django & Flask),
+          exploring DevOps orchestration tools, and learning Redis for advanced caching strategies.
+        </p>
+      </div>
+      <div class="about-values">
+        <div class="value-card">
+          <i data-lucide="shield-check" class="value-icon"></i>
+          <h4>Secure by Design</h4>
+          <p>Integrating banking/payment systems (Razorpay, eGRaSS) and implementing secure access controls.</p>
+        </div>
+        <div class="value-card">
+          <i data-lucide="cpu" class="value-icon"></i>
+          <h4>CQRS & Clean Code</h4>
+          <p>Separating read/write pipelines to boost queries and keep repositories clean and testable.</p>
+        </div>
+        <div class="value-card">
+          <i data-lucide="database" class="value-icon"></i>
+          <h4>Schema Architect</h4>
+          <p>Optimizing index definitions, relational joins, and foreign structures in PostgreSQL and MySQL 8.0.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="section-header">
+      <span class="section-tag">02. Expertise</span>
+      <h2 class="section-title">Technical Toolkit</h2>
+      <div class="title-underline"></div>
+    </div>
+    <div class="skills-grid">
+      <!-- Languages & Backend Core -->
+      <div class="skills-category-card">
+        <div class="category-header">
+          <i data-lucide="code"></i>
+          <h3>Languages & Backend Core</h3>
+        </div>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>PHP (Laravel, Core PHP)</span>
+              <span>Advanced</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Python (Django, Flask)</span>
+              <span>Intermediate / Exploring</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 60%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>React</span>
+              <span>Proficient</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span>Proficient</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>HTML & CSS</span>
+              <span>Advanced</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Databases & Caching -->
+      <div class="skills-category-card">
+        <div class="category-header">
+          <i data-lucide="database"></i>
+          <h3>Databases & Architecture</h3>
+        </div>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>MySQL 8.0</span>
+              <span>Expert</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>PostgreSQL</span>
+              <span>Proficient</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Clean Architecture, CQRS, DDD</span>
+              <span>Advanced</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Redis</span>
+              <span>Exploring</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 50%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DevOps & Infrastructure -->
+      <div class="skills-category-card">
+        <div class="category-header">
+          <i data-lucide="server"></i>
+          <h3>Cloud, DevOps & AI</h3>
+        </div>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>AWS (EC2, S3, RDS, SQS)</span>
+              <span>Proficient</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Ollama & RAG</span>
+              <span>Proficient</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Docker & CI/CD</span>
+              <span>Intermediate</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Git, Linux & Apache (LAMP)</span>
+              <span>Advanced</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 88%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience Timeline -->
+  <section id="experience" class="experience-section">
+    <div class="section-header">
+      <span class="section-tag">03. Career path</span>
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="title-underline"></div>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-line"></div>
+
+      <!-- Experience Item 1 -->
+      <div class="timeline-item left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-date">2025 – Present</span>
+            <h3>Software Developer </h3>
+            <h4>National Informatics Center (NIC), Assam (under ABM Knowledgeware Ltd.)</h4>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Developing a new Certified Copy Module supporting citizen-generated e-Deed Certified Copy Generation and
+              a masked copy feature that conceals sensitive information before issuance.</li>
+            <li>Developing a Small Language Model (SLM)-based conversational assistant for the National Generic Document
+              Registration System (NGDRS) project, enabling citizens to ask module-related questions and receive
+              real-time guidance.</li>
+          </ul>
+          <div class="experience-badges">
+            <span class="badge">Ollama / SLM</span>
+            <span class="badge">RAG</span>
+            <span class="badge">React</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">Vector DB</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Item 2 -->
+      <div class="timeline-item right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-date">2024</span>
+            <h3>Full-Stack Developer</h3>
+            <h4>Indigi Consulting & Solutions Pvt. Ltd., Guwahati</h4>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Led backend development using Laravel and MySQL, optimizing schema indexing, query latency, and overall
+              codebase maintainability.</li>
+            <li>Integrated Razorpay payment gateways to process over 10L+ in monthly transactions securely.</li>
+            <li>Spearheaded REST API layouts and route handlers complying with Clean Architecture standards.</li>
+            <li>Collaborated in agile sprint cycles, performed code reviews, and constructed reliable deployment actions
+              using CI/CD pipelines.</li>
+          </ul>
+          <div class="experience-badges">
+            <span class="badge">Laravel</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Razorpay</span>
+            <span class="badge">Clean Architecture</span>
+            <span class="badge">CI/CD</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Item 3 -->
+      <div class="timeline-item left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-date">2021 – 2024</span>
+            <h3>Programmer / Full-Stack Developer</h3>
+            <h4>Web.com (India) Pvt. Ltd., Guwahati</h4>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Designed and maintained production services for government and enterprise clients utilizing Laravel and
+              vanilla PHP.</li>
+            <li>Created integration test suites and unit tests that successfully reduced production regression bugs by
+              35%.</li>
+            <li>Applied CQRS and Domain-Driven Design (DDD) principles to restructure modular HRMIS projects.</li>
+            <li>Enhanced legacy LAMP architectures, adding modules and refactoring query loops for essential utility
+              boards.</li>
+          </ul>
+          <div class="experience-badges">
+            <span class="badge">Laravel</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">LAMP Stack</span>
+            <span class="badge">CQRS / DDD</span>
+            <span class="badge">Unit Testing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Item 4 -->
+      <div class="timeline-item right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-date">2021</span>
+            <h3>Full-Stack Intern</h3>
+            <h4>Rashtriya Uchchatar Shiksha Abhiyan (RUSA), Guwahati</h4>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Developed a custom task tracking and employee attendance dashboard using Laravel for the backend and
+              React Native on mobile.</li>
+            <li>Automated real-time geofenced HR attendance feeds, reducing manual verification cycles by 80%.</li>
+          </ul>
+          <div class="experience-badges">
+            <span class="badge">Laravel</span>
+            <span class="badge">React Native</span>
+            <span class="badge">API Sync</span>
+            <span class="badge">Automation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="section-header">
+      <span class="section-tag">04. Works</span>
+      <h2 class="section-title">Selected Projects</h2>
+      <div class="title-underline"></div>
+    </div>
+
+    <!-- Filter Categories -->
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="govt">Government & Public</button>
+      <button class="filter-btn" data-filter="fintech">Fintech & Payments</button>
+      <button class="filter-btn" data-filter="erp">ERP & Enterprise</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid" id="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card" data-category="fintech erp" data-id="p1">
+        <div class="project-meta">
+          <i data-lucide="credit-card" class="project-icon"></i>
+          <span class="project-year">2024</span>
+        </div>
+        <h3 class="project-card-title">Guwahati Jal Board Billing System</h3>
+        <p class="project-card-desc">Modernization of legacy water billing architecture. Engineered API structures and
+          integrated payments securely.</p>
+        <div class="project-card-tags">
+          <span>Laravel</span>
+          <span>MySQL</span>
+          <span>Razorpay</span>
+          <span>LAMP</span>
+        </div>
+        <button class="project-link-btn" onclick="openProjectModal('p1')">
+          <span>Explore Details</span>
+          <i data-lucide="external-link"></i>
+        </button>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card" data-category="govt fintech" data-id="p2">
+        <div class="project-meta">
+          <i data-lucide="shield" class="project-icon"></i>
+          <span class="project-year">2023</span>
+        </div>
+        <h3 class="project-card-title">Assam Police Seva Setu</h3>
+        <p class="project-card-desc">Backend platform enabling public access to critical police services (FIR tracking,
+          eGRaSS payment gates, CQRS patterns).</p>
+        <div class="project-card-tags">
+          <span>Laravel</span>
+          <span>MySQL</span>
+          <span>CQRS</span>
+          <span>eGRaSS API</span>
+        </div>
+        <button class="project-link-btn" onclick="openProjectModal('p2')">
+          <span>Explore Details</span>
+          <i data-lucide="external-link"></i>
+        </button>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card" data-category="erp" data-id="p3">
+        <div class="project-meta">
+          <i data-lucide="users" class="project-icon"></i>
+          <span class="project-year">2023</span>
+        </div>
+        <h3 class="project-card-title">HRMIS – Assam Petrochemicals</h3>
+        <p class="project-card-desc">Payroll compute backend engine executing complex deductions, dynamic filtering, and
+          custom report builders.</p>
+        <div class="project-card-tags">
+          <span>Laravel</span>
+          <span>PostgreSQL</span>
+          <span>JavaScript</span>
+          <span>Reporting</span>
+        </div>
+        <button class="project-link-btn" onclick="openProjectModal('p3')">
+          <span>Explore Details</span>
+          <i data-lucide="external-link"></i>
+        </button>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card" data-category="fintech" data-id="p4">
+        <div class="project-meta">
+          <i data-lucide="activity" class="project-icon"></i>
+          <span class="project-year">2024</span>
+        </div>
+        <h3 class="project-card-title">Health Lab System</h3>
+        <p class="project-card-desc">Comprehensive laboratory platform featuring patient registration, test booking, and
+          a custom wallet system.</p>
+        <div class="project-card-tags">
+          <span>Laravel</span>
+          <span>MySQL</span>
+          <span>Razorpay</span>
+          <span>Wallets</span>
+        </div>
+        <button class="project-link-btn" onclick="openProjectModal('p4')">
+          <span>Explore Details</span>
+          <i data-lucide="external-link"></i>
+        </button>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card" data-category="govt erp" data-id="p5">
+        <div class="project-meta">
+          <i data-lucide="smartphone" class="project-icon"></i>
+          <span class="project-year">2022</span>
+        </div>
+        <h3 class="project-card-title">Pragya Survey App</h3>
+        <p class="project-card-desc">Robust backend and sync scheduler designed to handle real-time sync, offline forms,
+          and administrative analytics.</p>
+        <div class="project-card-tags">
+          <span>Laravel</span>
+          <span>PostgreSQL</span>
+          <span>Sync Engine</span>
+        </div>
+        <button class="project-link-btn" onclick="openProjectModal('p5')">
+          <span>Explore Details</span>
+          <i data-lucide="external-link"></i>
+        </button>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card" data-category="govt erp" data-id="p6">
+        <div class="project-meta">
+          <i data-lucide="map" class="project-icon"></i>
+          <span class="project-year">2022</span>
+        </div>
+        <h3 class="project-card-title">Fertilizer Distribution Tracker</h3>
+        <p class="project-card-desc">GIS-enabled application providing stock tracing and geo-tagged visual dashboards
+          for distributor reporting.</p>
+        <div class="project-card-tags">
+          <span>Laravel</span>
+          <span>MySQL</span>
+          <span>GIS APIs</span>
+        </div>
+        <button class="project-link-btn" onclick="openProjectModal('p6')">
+          <span>Explore Details</span>
+          <i data-lucide="external-link"></i>
+        </button>
+      </div>
+
+      <!-- Project 7 -->
+      <div class="project-card" data-category="erp" data-id="p7">
+        <div class="project-meta">
+          <i data-lucide="layout-grid" class="project-icon"></i>
+          <span class="project-year">2022</span>
+        </div>
+        <h3 class="project-card-title">Motor & Travel ERP</h3>
+        <p class="project-card-desc">Integrated ERP backend modules automating vehicle sales tracking, stock counts,
+          invoicing, and service billing.</p>
+        <div class="project-card-tags">
+          <span>Laravel</span>
+          <span>MySQL</span>
+          <span>JavaScript</span>
+        </div>
+        <button class="project-link-btn" onclick="openProjectModal('p7')">
+          <span>Explore Details</span>
+          <i data-lucide="external-link"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Terminal Section -->
+  <section id="terminal" class="terminal-section">
+    <div class="section-header">
+      <span class="section-tag">05. Playroom</span>
+      <h2 class="section-title">Interactive SQL & PHP Console</h2>
+      <div class="title-underline"></div>
+    </div>
+
+    <div class="terminal-wrapper">
+      <div class="terminal-header-bar">
+        <div class="terminal-dots">
+          <span class="terminal-dot dot-red"></span>
+          <span class="terminal-dot dot-yellow"></span>
+          <span class="terminal-dot dot-green"></span>
+        </div>
+        <div class="terminal-header-title">mansi_sewa@laravel-sandbox:~$</div>
+        <div class="terminal-actions">
+          <button id="clear-terminal-btn" title="Clear Console"><i data-lucide="trash-2"></i></button>
+        </div>
+      </div>
+      <div class="terminal-body" id="terminal-body">
+        <div class="terminal-output-row">
+          <p class="terminal-welcome-msg">Welcome to the Mansi Sewa Developer Console v1.0.0</p>
+          <p class="terminal-help-msg">Type <span class="term-highlight">help</span> to view available commands, <span
+              class="term-highlight">skills</span> for her stack, or <span class="term-highlight">projects</span> to run
+            a query.</p>
+        </div>
+        <!-- Injected terminal prompts will appear here -->
+        <div class="terminal-input-line" id="terminal-input-line">
+          <span class="terminal-prompt-label">guest@sewa-portfolio:~$</span>
+          <input type="text" id="terminal-input" autocomplete="off" autofocus placeholder="Type a command...">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="section-header">
+      <span class="section-tag">06. Connect</span>
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="title-underline"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info-block">
+        <h3>Have a challenge to solve?</h3>
+        <p>I am interested in backend software roles, system optimization gigs, and contract integrations. Drop me a
+          line, and let's work out a solution together.</p>
+
+        <div class="contact-detail-items">
+          <a href="mailto:mansisewaa@gmail.com" class="contact-item">
+            <div class="contact-icon"><i data-lucide="mail"></i></div>
+            <div class="contact-meta">
+              <span>Email</span>
+              <strong>mansisewaa@gmail.com</strong>
+            </div>
+          </a>
+          <a href="tel:+919101382810" class="contact-item">
+            <div class="contact-icon"><i data-lucide="phone"></i></div>
+            <div class="contact-meta">
+              <span>Phone</span>
+              <strong>+91 91013 82810</strong>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/mansi-sewa-3677ba1b3" target="_blank" rel="noopener noreferrer"
+            class="contact-item">
+            <div class="contact-icon"><i data-lucide="linkedin"></i></div>
+            <div class="contact-meta">
+              <span>LinkedIn</span>
+              <strong>linkedin.com/in/mansi-sewa-3677ba1b3</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-block">
+        <form id="contact-form" class="styled-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" required placeholder="john@example.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" required placeholder="Project Inquiry / Job Opening">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required placeholder="Hi Mansi, I'd like to collaborate on..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit-btn">
+            <span>Send Message</span>
+            <i data-lucide="send"></i>
+          </button>
+        </form>
+        <div id="form-success" class="form-feedback-card success-card hidden">
+          <i data-lucide="check-circle"></i>
+          <div>
+            <h4>Message Sent Successfully!</h4>
+            <p>Thank you. Mansi will get back to you shortly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2026 Mansi Sewa. Built with clean HTML, CSS & Vanilla JS.</p>
+      <div class="footer-meta">
+        <span>Education: MCA (Cotton University, 2018–2021)</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal-overlay hidden">
+    <div class="modal-container">
+      <button class="modal-close" onclick="closeProjectModal()"><i data-lucide="x"></i></button>
+      <div class="modal-body" id="modal-content-area">
+        <!-- Rendered dynamically from script.js -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
